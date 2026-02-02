@@ -1,0 +1,34 @@
+{
+    "departments": [
+        {
+            "name": "Department of Computer Science and Engineering",
+            "slug": "computer-science-and-engineering",
+            "description": "Leading the way in computing education and research, fostering innovation in algorithms, AI, and software systems."
+        },
+        {
+            "name": "Department of Electrical and Electronics Engineering",
+            "slug": "electrical-and-electronics-engineering",
+            "description": "Powering innovation in electrical and electronics systems, focusing on sustainable energy and advanced control systems."
+        },
+        {
+            "name": "Department of Mechanical Engineering",
+            "slug": "mechanical-engineering",
+            "description": "Engineering solutions for a sustainable future, advancing knowledge in robotics, thermal systems, and materials."
+        },
+        {
+            "name": "Department of Civil Engineering",
+            "slug": "civil-engineering",
+            "description": "Building the foundation of modern infrastructure with a focus on structural integrity and environmental sustainability."
+        },
+        {
+            "name": "Department of Electronics and Communication Engineering",
+            "slug": "electronics-and-communication-engineering",
+            "description": "Connecting the world through communication technology, pioneering advancements in signal processing and embedded systems."
+        },
+        {
+            "name": "Department of Information Technology",
+            "slug": "information-technology",
+            "description": "Transforming information into knowledge, equipping students with cutting-edge skills in network security and data analytics."
+        }
+    ]
+}
