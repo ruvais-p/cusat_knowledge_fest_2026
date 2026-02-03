@@ -249,6 +249,30 @@
                 "/departments/Sophisticated Test and Instrumentation Centre (STIC)/photo8.jpg",
                 "/departments/Sophisticated Test and Instrumentation Centre (STIC)/photo9.JPG"
             ]
+        },
+        {
+            "name": "Department of Polymer Science and Rubber Technology",
+            "slug": "department-of-polymer-science-and-rubber-technology",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Department of Polymer Science and Rubber Technology/photo1.jpeg",
+                "/departments/Department of Polymer Science and Rubber Technology/photo2.jpg",
+                "/departments/Department of Polymer Science and Rubber Technology/photo3.jpeg",
+                "/departments/Department of Polymer Science and Rubber Technology/photo4.jpeg",
+                "/departments/Department of Polymer Science and Rubber Technology/photo5.jpeg"
+            ]
+        },
+        {
+            "name": "Equal Oppertunity Cell & Skill Orientation Centre for Engineering",
+            "slug": "equal-oppertunity-cell-skill-orientation-centre-for-engineering",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Equal Oppertunity Cell & Skill Orientation Centre for Engineering/photo1.jpg",
+                "/departments/Equal Oppertunity Cell & Skill Orientation Centre for Engineering/photo2.jpg",
+                "/departments/Equal Oppertunity Cell & Skill Orientation Centre for Engineering/photo3.jpg",
+                "/departments/Equal Oppertunity Cell & Skill Orientation Centre for Engineering/photo4.jpg",
+                "/departments/Equal Oppertunity Cell & Skill Orientation Centre for Engineering/photo5.jpg"
+            ]
         }
     ]
 }
