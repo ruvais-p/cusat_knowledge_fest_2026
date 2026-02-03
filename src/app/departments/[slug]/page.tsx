@@ -7,18 +7,7 @@ import ScrollElement from '@/components/ui/scroll-animation';
 import departmentsData from '@/data/departments.json';
 
 // Dummy images from Unsplash as requested
-const dummyImages = [
-    'https://images.unsplash.com/photo-1724690416947-3cdc197ffab1?q=80&w=600&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1695763594594-31505b18b58a?q=80&w=600&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1724888861686-ad3f706ab067?q=80&w=600&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1724884564497-f5024b7e2f93?q=80&w=600&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1460999158988-6f0380f81f4d?q=80&w=600&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1478028928718-7bfdb1b32095?q=80&w=600&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1460999158988-6f0380f81f4d?q=80&w=600&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1478028928718-7bfdb1b32095?q=80&w=600&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1460999158988-6f0380f81f4d?q=80&w=600&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1478028928718-7bfdb1b32095?q=80&w=600&auto=format&fit=crop',
-];
+// Images are loaded from department data
 
 export default function DepartmentPage() {
     const params = useParams();
@@ -54,7 +43,7 @@ export default function DepartmentPage() {
                 <div className="max-w-7xl mx-auto">
                     <h2 className="text-3xl font-bold text-center mb-12">Gallery</h2>
                     <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
-                        {dummyImages.map((src, index) => (
+                        {(department.images && department.images.length > 0 ? department.images : []).map((src, index) => (
                             <ScrollElement
                                 key={index}
                                 viewport={{ once: true, amount: 0.2 }}
@@ -71,9 +60,14 @@ export default function DepartmentPage() {
                                 </div>
                             </ScrollElement>
                         ))}
+                        {(!department.images || department.images.length === 0) && (
+                            <div className="col-span-full text-center py-12 text-gray-500">
+                                No images available for this department.
+                            </div>
+                        )}
                     </div>
                 </div>
             </section>
-        </main>
+        </main >
     );
 }

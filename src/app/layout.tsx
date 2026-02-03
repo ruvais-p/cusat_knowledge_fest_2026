@@ -15,8 +15,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('http://localhost:3000'),
   title: "Knowledge Fest 2026",
   description: "Join us for the Knowledge Festival 2026",
+  icons: {
+    icon: [
+      {
+        url: "/event_logo.png",
+        href: "/event_logo.png",
+      },
+    ],
+  },
+  openGraph: {
+    images: ['/event_logo.png'],
+  },
 };
 
 export default function RootLayout({

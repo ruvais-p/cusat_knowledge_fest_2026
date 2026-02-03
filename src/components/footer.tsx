@@ -14,20 +14,32 @@ const Footer = () => {
 
     return (
         <footer className="bg-gray-50 dark:bg-black border-t border-gray-200 dark:border-gray-800">
-            <div className="max-w-7xl mx-auto px-6 py-12 md:py-16">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div className="max-w-7xl mx-auto px-6 py-8 md:py-16">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
 
                     {/* Brand Column */}
                     <div className="space-y-4 md:col-span-2">
-                        <Link href="/" className="inline-block">
-                            <Image
-                                src="/event_logo.svg"
-                                alt="Knowledge Festival 2026"
-                                width={150}
-                                height={35}
-                                className="h-auto"
-                            />
-                        </Link>
+                        <div className="flex items-center gap-6">
+                            <Link href="/" className="inline-block">
+                                <Image
+                                    src="/event_logo.png"
+                                    alt="Knowledge Festival 2026"
+                                    width={150}
+                                    height={45}
+                                    className="h-auto w-32 md:w-36"
+                                />
+                            </Link>
+                            <div className="h-8 w-px bg-gray-300 dark:bg-gray-700"></div>
+                            <Link href="https://cusat.ac.in" target="_blank" className="inline-block hover:opacity-80 transition-opacity">
+                                <Image
+                                    src="/cusat_logo.png"
+                                    alt="CUSAT"
+                                    width={50}
+                                    height={50}
+                                    className="h-10 w-auto md:h-12"
+                                />
+                            </Link>
+                        </div>
                         <p className="text-gray-600 dark:text-gray-400 max-w-sm leading-relaxed">
                             Celebrating innovation, brilliance, and the pursuit of knowledge. Join us at CUSAT for an unforgettable experience of learning and inspiration.
                         </p>
@@ -65,7 +77,7 @@ const Footer = () => {
                         <ul className="space-y-3">
                             <li className="text-gray-600 dark:text-gray-400">
                                 <span className="block text-xs text-gray-400 dark:text-gray-500 mb-1">Email</span>
-                                info@cusat.ac.in
+                                knowledgefest2026@gmail.com
                             </li>
                             <li className="text-gray-600 dark:text-gray-400">
                                 <span className="block text-xs text-gray-400 dark:text-gray-500 mb-1">Location</span>
@@ -76,9 +88,9 @@ const Footer = () => {
                 </div>
 
                 {/* Bottom Bar */}
-                <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
-                    <p>&copy; 2026 Knowledge Festival. All rights reserved.</p>
-                    <div className="flex gap-6">
+                <div className="mt-8 md:mt-12 pt-8 border-t border-gray-200 dark:border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500 dark:text-gray-400 text-center md:text-left">
+                    <p>&copy; 2026 Knowledge Festival. All rights reserved to <a href="https://eocsoce.cusat.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 dark:hover:text-white transition-colors">EOC SOCE</a></p>
+                    <div className="flex gap-6 justify-center md:justify-start">
                         <a href="#" className="hover:text-gray-900 dark:hover:text-white transition-colors">Privacy Policy</a>
                         <a href="#" className="hover:text-gray-900 dark:hover:text-white transition-colors">Terms of Service</a>
                     </div>

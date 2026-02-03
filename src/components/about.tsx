@@ -1,4 +1,27 @@
-import React from 'react';
+'use client';
+
+import React, { useEffect, useRef } from 'react';
+import { motion, useMotionValue, useTransform, animate, useInView } from "framer-motion";
+
+const Counter = ({ value, suffix = '' }: { value: number; suffix?: string }) => {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true, margin: "-20%" });
+    const motionValue = useMotionValue(0);
+    const rounded = useTransform(motionValue, (latest) => Math.round(latest));
+
+    useEffect(() => {
+        if (isInView) {
+            animate(motionValue, value, { duration: 2, ease: "easeOut" });
+        }
+    }, [isInView, value, motionValue]);
+
+    return (
+        <span ref={ref} className="text-3xl font-bold text-gray-900 dark:text-white flex items-center">
+            <motion.span>{rounded}</motion.span>
+            <span>{suffix}</span>
+        </span>
+    );
+};
 
 const AboutSection = () => {
     return (
@@ -21,7 +44,9 @@ const AboutSection = () => {
                         </h2>
 
                         <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                            Knowledge Festival 2026 is CUSAT's premier annual gathering of brilliant minds. It's a celebration of technology, science, and the arts, bringing together students, experts, and industry leaders.
+                            CUSAT Knowledge Festival – Curiosity Meets Opportunity is an open-house initiative of Cochin University of Science and Technology (CUSAT) designed to bring science, technology, and higher education closer to the public. The festival opens the doors of the University, offering students, parents, and the general public an opportunity to explore CUSAT’s academic, research, and infrastructural facilities.
+                            The programme features exhibitions, expert lectures, interactive sessions, quizzes, and demonstrations organised by various departments, showcasing innovations, research outcomes, and learning opportunities at CUSAT. Through this festival, the University aims to reduce the gap between science and society by making knowledge accessible, engaging, and relevant to everyday life.
+                            The Knowledge Festival also serves as a platform to guide aspiring students by familiarising them with academic programmes, career prospects, and admission opportunities available at CUSAT for the upcoming academic year.
                         </p>
 
                         <p className="text-gray-600 dark:text-gray-400 leading-relaxed border-l-4 border-blue-600 pl-4 py-1">
@@ -30,39 +55,31 @@ const AboutSection = () => {
 
                         <div className="grid grid-cols-3 gap-6 pt-4">
                             <div>
-                                <div className="text-3xl font-bold text-gray-900 dark:text-white">5k+</div>
+                                <Counter value={5} suffix="k+" />
                                 <div className="text-sm text-gray-500 dark:text-gray-400">Attendees</div>
                             </div>
                             <div>
-                                <div className="text-3xl font-bold text-gray-900 dark:text-white">50+</div>
+                                <Counter value={50} suffix="+" />
                                 <div className="text-sm text-gray-500 dark:text-gray-400">Events</div>
                             </div>
                             <div>
-                                <div className="text-3xl font-bold text-gray-900 dark:text-white">20+</div>
+                                <Counter value={20} suffix="+" />
                                 <div className="text-sm text-gray-500 dark:text-gray-400">Workshops</div>
                             </div>
                         </div>
                     </div>
 
                     {/* Visual Element / "Image" */}
-                    <div className="md:w-1/2 w-full">
-                        <div className="relative aspect-square md:aspect-[4/5] lg:aspect-square bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 rounded-3xl overflow-hidden shadow-2xl skew-y-3 hover:skew-y-0 transition-transform duration-700 ease-out border border-white/20">
-                            {/* Abstract Geometric Pattern representing innovation */}
-                            <div className="absolute inset-0 bg-[url('/about-pattern.svg')] bg-cover opacity-50 mix-blend-overlay"></div>
-                            {/* Since we don't have an image, we build a composition */}
-                            <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center bg-gradient-to-br from-[#263381]/80 to-[#5766be]/80 text-white backdrop-blur-sm">
-                                <div className="w-24 h-24 mb-6 rounded-2xl bg-white/20 backdrop-blur-md flex items-center justify-center border border-white/30 rotate-12 shadow-lg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-12 h-12 text-white">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.854 1.5-2.261M12 18c.241-1.815.146-2.583.146-2.583m0 0a6.046 6.046 0 00-6 6m0 0c0 .93.57 1.763 1.391 2.219m-3.805-4.437a3.001 3.001 0 00-2.822 5.25" />
-                                    </svg>
-                                </div>
-                                <h3 className="text-2xl font-bold mb-2">Knowledge Festival</h3>
-                                <div className="w-16 h-1 bg-white/50 rounded-full mb-4"></div>
-                                <p className="text-white/90 font-light">
-                                    February 26-28, 2026<br />
-                                    CUSAT Campus
-                                </p>
-                            </div>
+                    <div className="md:w-1/2 w-full flex justify-center items-center">
+                        <div className="relative w-full max-w-md aspect-square">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                                src="/card_image.png"
+                                alt="Knowledge Festival"
+                                className="w-full h-full object-cover rounded-3xl shadow-2xl transition-transform duration-700 hover:scale-105"
+                            />
+                            {/* Decorative glow behind */}
+                            <div className="absolute inset-0 bg-blue-500/20 blur-3xl -z-10 scale-90"></div>
                         </div>
                     </div>
                 </div>

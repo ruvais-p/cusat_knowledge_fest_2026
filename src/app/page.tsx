@@ -6,6 +6,7 @@ import AboutSection from "@/components/about";
 interface Department {
   name: string;
   slug: string;
+  images?: string[];
 }
 
 export default function Home() {
@@ -71,36 +72,43 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Departments Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {departments.map((department: Department, index: number) => (
-              <Link key={index} href={`/departments/${department.slug}`} className="block h-full">
+              <Link
+                key={index}
+                href={`/departments/${department.slug}`}
+                className="block h-full group"
+              >
                 <div
-                  className="group relative h-full overflow-hidden rounded-2xl p-8 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl"
-                  style={{
-                    background: `linear-gradient(135deg, ${index % 3 === 0
-                      ? '#263381, #394481'
-                      : index % 3 === 1
-                        ? '#5766be, #6b7bc9'
-                        : '#8898f3, #9aa8f5'
-                      })`
-                  }}
+                  className="relative h-full bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 dark:border-gray-700"
                 >
-                  {/* Animated Background Effect */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  {/* Top Accent Gradient Line */}
+                  <div className={`h-1.5 w-full bg-gradient-to-r ${index % 3 === 0 ? 'from-blue-500 to-cyan-400' : index % 3 === 1 ? 'from-indigo-500 to-purple-400' : 'from-fuchsia-500 to-pink-400'}`}></div>
 
-                  {/* Department Name */}
-                  <div className="relative z-10 h-full flex items-center">
-                    <h3 className="text-2xl md:text-3xl font-bold text-white leading-tight group-hover:scale-105 transition-transform duration-300">
-                      {department.name}
-                    </h3>
+                  <div className="p-8 flex flex-col h-full">
+                    {/* Header with Icon */}
+                    <div className="flex items-start justify-between mb-6">
+                      {/* Arrow Icon that appears/moves on hover */}
+                      <div className="w-10 h-10 rounded-full bg-gray-50 dark:bg-gray-700 flex items-center justify-center group-hover:bg-blue-50 dark:group-hover:bg-blue-900/30 transition-colors duration-300">
+                        <svg className="w-5 h-5 text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 17L17 7M17 7H7M17 7V17" />
+                        </svg>
+                      </div>
+                    </div>
+
+                    {/* Content */}
+                    <div className="flex-grow">
+                      <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3 leading-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
+                        {department.name}
+                      </h3>
+                      <div className="w-12 h-1 bg-gray-100 dark:bg-gray-700 rounded-full group-hover:w-full transition-all duration-500 ease-out origin-left"></div>
+                    </div>
+
+                    {/* Footer / CTA */}
+                    <div className="mt-8 pt-6 border-t border-gray-100 dark:border-gray-700 flex items-center text-sm font-semibold text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white transition-colors duration-300">
+                      <span>Explore Department</span>
+                    </div>
                   </div>
-
-                  {/* Decorative Element */}
-                  <div className="absolute bottom-4 right-4 w-16 h-16 border-2 border-white/30 rounded-full group-hover:scale-150 group-hover:border-white/50 transition-all duration-500"></div>
-
-                  {/* Hover Border Glow */}
-                  <div className="absolute inset-0 border-2 border-transparent group-hover:border-white/40 rounded-2xl transition-all duration-300"></div>
                 </div>
               </Link>
             ))}

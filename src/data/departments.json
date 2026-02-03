@@ -1,34 +1,254 @@
 {
     "departments": [
         {
-            "name": "Department of Computer Science and Engineering",
-            "slug": "computer-science-and-engineering",
-            "description": "Leading the way in computing education and research, fostering innovation in algorithms, AI, and software systems."
+            "name": "Advanced Centre For Atmospheric Radar Research(ACARR)",
+            "slug": "advanced-centre-for-atmospheric-radar-research-acarr",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Advanced Centre For Atmospheric Radar Research(ACARR)/photo1.png",
+                "/departments/Advanced Centre For Atmospheric Radar Research(ACARR)/photo2.JPG",
+                "/departments/Advanced Centre For Atmospheric Radar Research(ACARR)/photo3.jpg"
+            ]
         },
         {
-            "name": "Department of Electrical and Electronics Engineering",
-            "slug": "electrical-and-electronics-engineering",
-            "description": "Powering innovation in electrical and electronics systems, focusing on sustainable energy and advanced control systems."
+            "name": "Center for Development of e-Content (CDeC)",
+            "slug": "center-for-development-of-e-content-cdec",
+            "description": "Explore our academic department.",
+            "images": []
         },
         {
-            "name": "Department of Mechanical Engineering",
-            "slug": "mechanical-engineering",
-            "description": "Engineering solutions for a sustainable future, advancing knowledge in robotics, thermal systems, and materials."
+            "name": "Centre for Budget Studies(CBS)",
+            "slug": "centre-for-budget-studies-cbs",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Centre for Budget Studies(CBS)/photo1.jpg",
+                "/departments/Centre for Budget Studies(CBS)/photo2.jpg",
+                "/departments/Centre for Budget Studies(CBS)/photo3.jpg",
+                "/departments/Centre for Budget Studies(CBS)/photo4.jpg",
+                "/departments/Centre for Budget Studies(CBS)/photo5.png",
+                "/departments/Centre for Budget Studies(CBS)/photo6.png"
+            ]
         },
         {
-            "name": "Department of Civil Engineering",
-            "slug": "civil-engineering",
-            "description": "Building the foundation of modern infrastructure with a focus on structural integrity and environmental sustainability."
+            "name": "Centre for Science in Society (C-SiS)",
+            "slug": "centre-for-science-in-society-c-sis",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Centre for Science in Society (C-SiS)/5d4c432d-e6d3-40ad-aa6e-d8f115f13712.JPG",
+                "/departments/Centre for Science in Society (C-SiS)/666fc991-3f6d-45fe-8714-d26271d492e1.JPG",
+                "/departments/Centre for Science in Society (C-SiS)/6b264f67-8d5d-483b-a27e-11e0b73eb437.JPG",
+                "/departments/Centre for Science in Society (C-SiS)/8acafe1e-2085-408e-9009-17824e5b30f8 (1).JPG",
+                "/departments/Centre for Science in Society (C-SiS)/9349b3d5-781d-4c82-9baf-23220b219ef8 (1).JPG",
+                "/departments/Centre for Science in Society (C-SiS)/ad6dda75-7682-49a2-9b92-1c0aa9ce720a.JPG",
+                "/departments/Centre for Science in Society (C-SiS)/ff937143-cd6d-407f-82fb-b144f013adc8.JPG"
+            ]
         },
         {
-            "name": "Department of Electronics and Communication Engineering",
-            "slug": "electronics-and-communication-engineering",
-            "description": "Connecting the world through communication technology, pioneering advancements in signal processing and embedded systems."
+            "name": "Department of Applied Chemistry",
+            "slug": "department-of-applied-chemistry",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Department of Applied Chemistry/DSC_7788.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7796.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7806.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7809.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7810.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7811.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7812.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7813.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7814.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7816.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7818.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7819.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7820.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7821.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7822.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7823.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7824.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7825.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7826.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7827.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7828.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7830.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7840.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7854.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7855.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7856.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7857.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7858.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7859.JPG",
+                "/departments/Department of Applied Chemistry/DSC_7863.JPG"
+            ]
         },
         {
-            "name": "Department of Information Technology",
-            "slug": "information-technology",
-            "description": "Transforming information into knowledge, equipping students with cutting-edge skills in network security and data analytics."
+            "name": "Department of Computer Science",
+            "slug": "department-of-computer-science",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Department of Computer Science/1682773731685.jpg",
+                "/departments/Department of Computer Science/20230725_101901.jpg",
+                "/departments/Department of Computer Science/BE3T8456.JPG",
+                "/departments/Department of Computer Science/Copy of PXL_20230227_065321373.jpg",
+                "/departments/Department of Computer Science/DSCN0089.JPG",
+                "/departments/Department of Computer Science/DSC_0051 (1).jpg",
+                "/departments/Department of Computer Science/IMG-20260203-WA0215.jpg",
+                "/departments/Department of Computer Science/IMG_5034.JPG",
+                "/departments/Department of Computer Science/IMG_7305.PNG",
+                "/departments/Department of Computer Science/IMG_7306.PNG",
+                "/departments/Department of Computer Science/IMG_7307.PNG",
+                "/departments/Department of Computer Science/IMG_7308.PNG",
+                "/departments/Department of Computer Science/IMG_7311.PNG",
+                "/departments/Department of Computer Science/IMG_7312.PNG",
+                "/departments/Department of Computer Science/IMG_7313.PNG",
+                "/departments/Department of Computer Science/IMG_7314.PNG",
+                "/departments/Department of Computer Science/IMG_7315.PNG",
+                "/departments/Department of Computer Science/IMG_7316.PNG",
+                "/departments/Department of Computer Science/IMG_7317.PNG",
+                "/departments/Department of Computer Science/IMG_7318.PNG",
+                "/departments/Department of Computer Science/IMG_7319.PNG",
+                "/departments/Department of Computer Science/IMG_7320.JPG",
+                "/departments/Department of Computer Science/IMG_7323.JPG",
+                "/departments/Department of Computer Science/IMG_7326.JPG"
+            ]
+        },
+        {
+            "name": "Department of Photonics",
+            "slug": "department-of-photonics",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Department of Photonics/ISP-collage.png"
+            ]
+        },
+        {
+            "name": "Department of Physics",
+            "slug": "department-of-physics",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Department of Physics/1770088709182.jpg",
+                "/departments/Department of Physics/1770088709201.jpg",
+                "/departments/Department of Physics/1770088709210.jpg",
+                "/departments/Department of Physics/IMG-20241112-WA0011.jpg",
+                "/departments/Department of Physics/IMG-20241112-WA0012.jpg"
+            ]
+        },
+        {
+            "name": "Department of Statistics",
+            "slug": "department-of-statistics",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Department of Statistics/photo1.JPG",
+                "/departments/Department of Statistics/photo2.jpg",
+                "/departments/Department of Statistics/photo3.jpg",
+                "/departments/Department of Statistics/photo4.jpg"
+            ]
+        },
+        {
+            "name": "Department of Biotechnology",
+            "slug": "department-ofbiotechnology",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Department ofbiotechnology/photo1.JPG",
+                "/departments/Department ofbiotechnology/photo2.JPG",
+                "/departments/Department ofbiotechnology/photo3.jpg",
+                "/departments/Department ofbiotechnology/photo4.jpg",
+                "/departments/Department ofbiotechnology/photo5.jpg",
+                "/departments/Department ofbiotechnology/photo6.jpg",
+                "/departments/Department ofbiotechnology/photo7.jpg",
+                "/departments/Department ofbiotechnology/photo8.jpg",
+                "/departments/Department ofbiotechnology/photo9.jpg"
+            ]
+        },
+        {
+            "name": "Electronics and Communication Engineering (CUCEK)",
+            "slug": "electronics-and-communication-engineering-cucek",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Electronics and Communication Engineering (CUCEK)/CUCEK.jpg",
+                "/departments/Electronics and Communication Engineering (CUCEK)/CUCEK1.jpg",
+                "/departments/Electronics and Communication Engineering (CUCEK)/CUCEK2.jpg",
+                "/departments/Electronics and Communication Engineering (CUCEK)/poster graduation ceremony.jpg"
+            ]
+        },
+        {
+            "name": "Inter University Centre for IPR Studies (IUCIPRS)",
+            "slug": "inter-university-centre-for-ipr-studies-iuciprs",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Inter University Centre for IPR Studies (IUCIPRS)/photo3.webp"
+            ]
+        },
+        {
+            "name": "MSc Forensic Science",
+            "slug": "msc-forensic-science",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/MSc Forensic Science/_MG_9222.JPG",
+                "/departments/MSc Forensic Science/photo10.JPG",
+                "/departments/MSc Forensic Science/photo11.JPG",
+                "/departments/MSc Forensic Science/photo12.JPG",
+                "/departments/MSc Forensic Science/photo13.JPG",
+                "/departments/MSc Forensic Science/photo14.jpg",
+                "/departments/MSc Forensic Science/photo15.jpg",
+                "/departments/MSc Forensic Science/photo16.JPG",
+                "/departments/MSc Forensic Science/photo2.JPG",
+                "/departments/MSc Forensic Science/photo3.JPG",
+                "/departments/MSc Forensic Science/photo4.JPG",
+                "/departments/MSc Forensic Science/photo5.JPG",
+                "/departments/MSc Forensic Science/photo6.JPG",
+                "/departments/MSc Forensic Science/photo7.JPG",
+                "/departments/MSc Forensic Science/photo8.JPG",
+                "/departments/MSc Forensic Science/photo9.JPG"
+            ]
+        },
+        {
+            "name": "School of Industrial Fisheries",
+            "slug": "school-of-industrial-fisheries",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/School of Industrial Fisheries/SIF 1.jpeg",
+                "/departments/School of Industrial Fisheries/SIF 2.jpeg",
+                "/departments/School of Industrial Fisheries/SIF 3.jpeg",
+                "/departments/School of Industrial Fisheries/SIF 4.jpeg",
+                "/departments/School of Industrial Fisheries/SIF 5.jpeg",
+                "/departments/School of Industrial Fisheries/SIF 6.jpeg"
+            ]
+        },
+        {
+            "name": "School of Management Studies (SMS)",
+            "slug": "school-of-management-studies-sms",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/School of Management Studies (SMS)/SMS BUILDING 1.jpeg",
+                "/departments/School of Management Studies (SMS)/SMS BUILDING 2.jpeg",
+                "/departments/School of Management Studies (SMS)/SMS BUILDING 3.jpeg",
+                "/departments/School of Management Studies (SMS)/SMS BUILDING 4.jpeg",
+                "/departments/School of Management Studies (SMS)/SMS CLASSROOM PIC.JPG",
+                "/departments/School of Management Studies (SMS)/SMS DIRECTOR.jpeg",
+                "/departments/School of Management Studies (SMS)/SMS PLACEMENT STATS.jpeg",
+                "/departments/School of Management Studies (SMS)/TALENTIME SMS.JPG"
+            ]
+        },
+        {
+            "name": "Ship Technology",
+            "slug": "ship-technology",
+            "description": "Explore our academic department.",
+            "images": []
+        },
+        {
+            "name": "Sophisticated Test and Instrumentation Centre (STIC)",
+            "slug": "sophisticated-test-and-instrumentation-centre-stic",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Sophisticated Test and Instrumentation Centre (STIC)/photo1.PNG",
+                "/departments/Sophisticated Test and Instrumentation Centre (STIC)/photo2.PNG",
+                "/departments/Sophisticated Test and Instrumentation Centre (STIC)/photo3.PNG",
+                "/departments/Sophisticated Test and Instrumentation Centre (STIC)/photo4.PNG",
+                "/departments/Sophisticated Test and Instrumentation Centre (STIC)/photo5.JPG",
+                "/departments/Sophisticated Test and Instrumentation Centre (STIC)/photo6.jpg",
+                "/departments/Sophisticated Test and Instrumentation Centre (STIC)/photo7.JPG",
+                "/departments/Sophisticated Test and Instrumentation Centre (STIC)/photo8.jpg",
+                "/departments/Sophisticated Test and Instrumentation Centre (STIC)/photo9.JPG"
+            ]
         }
     ]
 }
