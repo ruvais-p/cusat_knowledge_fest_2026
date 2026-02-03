@@ -74,7 +74,7 @@ const AboutSection = () => {
                         <div className="relative w-full max-w-md aspect-square">
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
-                                src="/card_image.png"
+                                src="/card_image.jpeg"
                                 alt="Knowledge Festival"
                                 className="w-full h-full object-cover rounded-3xl shadow-2xl transition-transform duration-700 hover:scale-105"
                             />
