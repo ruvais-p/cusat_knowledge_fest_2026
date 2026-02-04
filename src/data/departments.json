@@ -335,6 +335,15 @@
                 "/departments/Department of Physical Oceanography/photo4.jpg",
                 "/departments/Department of Physical Oceanography/photo5.jpg"
             ]
+        },
+        {
+            "name": "Department of Marine Geology & Geophysics",
+            "slug": "department-of-marine-geology-and-geophysics",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Department of Marine Geology & Geophysics/photo1.jpeg",
+                "/departments/Department of Marine Geology & Geophysics/photo2.jpeg"
+            ]
         }
     ]
 }
