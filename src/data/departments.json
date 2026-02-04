@@ -273,8 +273,7 @@
                 "/departments/Equal Oppertunity Cell & Skill Orientation Centre for Engineering/photo4.jpg",
                 "/departments/Equal Oppertunity Cell & Skill Orientation Centre for Engineering/photo5.jpg"
             ]
-        }
-        ,
+        },
         {
             "name": "School of Engineering",
             "slug": "school-of-engineering",
@@ -288,8 +287,8 @@
                 "/departments/School of Engineering/6_SOE.jpg",
                 "/departments/School of Engineering/7_SOE.jpg"
             ]
-        }
-        ,{
+        },
+        {
             "name": "School of Legal Studies",
             "slug": "school-of-legal-studies",
             "description": "Explore our academic department.",
@@ -343,6 +342,22 @@
             "images": [
                 "/departments/Department of Marine Geology & Geophysics/photo1.jpeg",
                 "/departments/Department of Marine Geology & Geophysics/photo2.jpeg"
+            ]
+        },
+        {
+            "name": "Center of Excellence for Food Innovations and Startup Hubs (CE-FISH)",
+            "slug": "center-of-excellence-for-food-innovations-and-startup-hubs-ce-fish",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Center of Excellence for Food Innovations and Startup Hubs (CE-FISH)/1.png",
+                "/departments/Center of Excellence for Food Innovations and Startup Hubs (CE-FISH)/2.png",
+                "/departments/Center of Excellence for Food Innovations and Startup Hubs (CE-FISH)/3.png",
+                "/departments/Center of Excellence for Food Innovations and Startup Hubs (CE-FISH)/4.png",
+                "/departments/Center of Excellence for Food Innovations and Startup Hubs (CE-FISH)/5.png",
+                "/departments/Center of Excellence for Food Innovations and Startup Hubs (CE-FISH)/6.png",
+                "/departments/Center of Excellence for Food Innovations and Startup Hubs (CE-FISH)/7.png",
+                "/departments/Center of Excellence for Food Innovations and Startup Hubs (CE-FISH)/8.png",
+                "/departments/Center of Excellence for Food Innovations and Startup Hubs (CE-FISH)/9.png"
             ]
         }
     ]
