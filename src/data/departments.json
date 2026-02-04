@@ -274,5 +274,43 @@
                 "/departments/Equal Oppertunity Cell & Skill Orientation Centre for Engineering/photo5.jpg"
             ]
         }
+        ,
+        {
+            "name": "School of Engineering",
+            "slug": "school-of-engineering",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/School of Engineering/1_SOE.jpg",
+                "/departments/School of Engineering/2_SOE.jpg",
+                "/departments/School of Engineering/3_SOE.jpg",
+                "/departments/School of Engineering/4_SOE.jpg",
+                "/departments/School of Engineering/5_SOE.jpg",
+                "/departments/School of Engineering/6_SOE.jpg",
+                "/departments/School of Engineering/7_SOE.jpg"
+            ]
+        }
+        ,{
+            "name": "School of Legal Studies",
+            "slug": "school-of-legal-studies",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/School of Legal Studies/photo1.jpg"
+            ]
+        },
+        {
+            "name": "School of Marine Sciences",
+            "slug": "school-of-marine-sciences",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/School of Marine Sciences/photo1.jpg",
+                "/departments/School of Marine Sciences/photo2.jpg",
+                "/departments/School of Marine Sciences/photo3.jpg",
+                "/departments/School of Marine Sciences/photo4.jpg",
+                "/departments/School of Marine Sciences/photo5.jpg",
+                "/departments/School of Marine Sciences/photo6.jpg",
+                "/departments/School of Marine Sciences/photo7.jpg",
+                "/departments/School of Marine Sciences/photo8.jpg"
+            ]
+        }
     ]
 }
