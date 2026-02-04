@@ -311,6 +311,30 @@
                 "/departments/School of Marine Sciences/photo7.jpg",
                 "/departments/School of Marine Sciences/photo8.jpg"
             ]
+        },
+        {
+            "name": "Department of Hindi",
+            "slug": "department-of-hindi",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Department of Hindi/photo1.jpg",
+                "/departments/Department of Hindi/photo2.jpg",
+                "/departments/Department of Hindi/photo3.jpg",
+                "/departments/Department of Hindi/photo4.jpg",
+                "/departments/Department of Hindi/photo5.jpg"
+            ]
+        },
+        {
+            "name": "Department of Physical Oceanography",
+            "slug": "department-of-physical-oceanography",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Department of Physical Oceanography/photo1.jpg",
+                "/departments/Department of Physical Oceanography/photo2.png",
+                "/departments/Department of Physical Oceanography/photo3.jpg",
+                "/departments/Department of Physical Oceanography/photo4.jpg",
+                "/departments/Department of Physical Oceanography/photo5.jpg"
+            ]
         }
     ]
 }
