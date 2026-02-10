@@ -1,6 +1,20 @@
 {
     "departments": [
         {
+            "name": "School of Engineering",
+            "slug": "school-of-engineering",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/School of Engineering/1_SOE.jpg",
+                "/departments/School of Engineering/2_SOE.jpg",
+                "/departments/School of Engineering/3_SOE.jpg",
+                "/departments/School of Engineering/4_SOE.jpg",
+                "/departments/School of Engineering/5_SOE.jpg",
+                "/departments/School of Engineering/6_SOE.jpg",
+                "/departments/School of Engineering/7_SOE.jpg"
+            ]
+        },
+        {
             "name": "Advanced Centre For Atmospheric Radar Research(ACARR)",
             "slug": "advanced-centre-for-atmospheric-radar-research-acarr",
             "description": "Explore our academic department.",
