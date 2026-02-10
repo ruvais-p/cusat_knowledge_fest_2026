@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { notFound, useParams } from 'next/navigation';
 import ScrollElement from '@/components/ui/scroll-animation';
 import departmentsData from '@/data/departments.json';
+import { ArrowRightIcon } from '@heroicons/react/24/outline';
 
 // Dummy images from Unsplash as requested
 // Images are loaded from department data
@@ -36,6 +37,28 @@ export default function DepartmentPage() {
                         {department.description}
                     </p>
                 </div>
+                {department.url && department.urlText && (
+                    <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
+  <a
+    href={department.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group inline-flex items-center gap-2 px-6 py-3 text-base font-black rounded-full shadow-sm
+               text-white bg-indigo-600 hover:bg-indigo-700 transition-all duration-300"
+  >
+    {department.urlText}
+
+    {/* Arrow */}
+    <span
+      className="inline-block transform transition-transform duration-300
+                 group-hover:translate-x-2"
+    >
+      <ArrowRightIcon className="w-5 h-5" />
+    </span>
+  </a>
+</div>
+
+                )}
             </section>
 
             {/* Gallery Section */}

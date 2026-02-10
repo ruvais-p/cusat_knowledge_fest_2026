@@ -277,7 +277,9 @@
         {
             "name": "School of Engineering",
             "slug": "school-of-engineering",
-            "description": "Explore our academic department.",
+            "description": "Explore our academic department & checkout Vibhava - SOE's own fest",
+            "url":"https://vibhava.cusat.co.in/",
+            "urlText":"Visit Vibhava",
             "images": [
                 "/departments/School of Engineering/1_SOE.jpg",
                 "/departments/School of Engineering/2_SOE.jpg",
