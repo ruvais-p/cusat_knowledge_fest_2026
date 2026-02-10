@@ -361,6 +361,42 @@
                 "/departments/Center of Excellence for Food Innovations and Startup Hubs (CE-FISH)/8.png",
                 "/departments/Center of Excellence for Food Innovations and Startup Hubs (CE-FISH)/9.png"
             ]
+        },
+        {
+            "name": "Inter University Centre of Excellence recognised by the Government of Kerala",
+            "slug": "inter-university-centre-of-excellence-recognised-by-the-government-of-kerala",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Inter University Centre of Excellence recognised by the Government of Kerala/3.png",
+                "/departments/Inter University Centre of Excellence recognised by the Government of Kerala/4.jpg",
+                "/departments/Inter University Centre of Excellence recognised by the Government of Kerala/5.JPG",
+                "/departments/Inter University Centre of Excellence recognised by the Government of Kerala/6.jpg",
+                "/departments/Inter University Centre of Excellence recognised by the Government of Kerala/7.jpg",
+                "/departments/Inter University Centre of Excellence recognised by the Government of Kerala/8.png",
+                "/departments/Inter University Centre of Excellence recognised by the Government of Kerala/9.jpg",
+                "/departments/Inter University Centre of Excellence recognised by the Government of Kerala/10.JPG",
+                "/departments/Inter University Centre of Excellence recognised by the Government of Kerala/11.JPG",
+                "/departments/Inter University Centre of Excellence recognised by the Government of Kerala/12.jpg"
+            ]
+        },
+        {
+            "name": "Kunjali Marakkar School of Marine Engineering",
+            "slug": "kunjali-marakkar-school-of-marine-engineering",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Kunjali Marakkar School of Marine Engineering/1.JPG",
+                "/departments/Kunjali Marakkar School of Marine Engineering/2.jpg",
+                "/departments/Kunjali Marakkar School of Marine Engineering/3.JPG",
+                "/departments/Kunjali Marakkar School of Marine Engineering/4.jpg",
+                "/departments/Kunjali Marakkar School of Marine Engineering/5.JPG",
+                "/departments/Kunjali Marakkar School of Marine Engineering/6.jpg",
+                "/departments/Kunjali Marakkar School of Marine Engineering/7.JPG",
+                "/departments/Kunjali Marakkar School of Marine Engineering/8.JPG",
+                "/departments/Kunjali Marakkar School of Marine Engineering/9.JPG",
+                "/departments/Kunjali Marakkar School of Marine Engineering/10.JPG",
+                "/departments/Kunjali Marakkar School of Marine Engineering/11.jpg",
+                "/departments/Kunjali Marakkar School of Marine Engineering/12.jpg"
+            ]
         }
     ]
 }
