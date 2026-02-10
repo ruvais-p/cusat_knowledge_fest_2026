@@ -3,7 +3,9 @@
         {
             "name": "School of Engineering",
             "slug": "school-of-engineering",
-            "description": "Explore our academic department.",
+            "description": "Explore our academic department & checkout Vibhava - SOE's own fest",
+            "url": "https://vibhava.cusat.co.in/",
+            "urlText": "Visit Vibhava",
             "images": [
                 "/departments/School of Engineering/1_SOE.jpg",
                 "/departments/School of Engineering/2_SOE.jpg",
@@ -286,22 +288,6 @@
                 "/departments/Equal Oppertunity Cell & Skill Orientation Centre for Engineering/photo3.jpg",
                 "/departments/Equal Oppertunity Cell & Skill Orientation Centre for Engineering/photo4.jpg",
                 "/departments/Equal Oppertunity Cell & Skill Orientation Centre for Engineering/photo5.jpg"
-            ]
-        },
-        {
-            "name": "School of Engineering",
-            "slug": "school-of-engineering",
-            "description": "Explore our academic department & checkout Vibhava - SOE's own fest",
-            "url":"https://vibhava.cusat.co.in/",
-            "urlText":"Visit Vibhava",
-            "images": [
-                "/departments/School of Engineering/1_SOE.jpg",
-                "/departments/School of Engineering/2_SOE.jpg",
-                "/departments/School of Engineering/3_SOE.jpg",
-                "/departments/School of Engineering/4_SOE.jpg",
-                "/departments/School of Engineering/5_SOE.jpg",
-                "/departments/School of Engineering/6_SOE.jpg",
-                "/departments/School of Engineering/7_SOE.jpg"
             ]
         },
         {
