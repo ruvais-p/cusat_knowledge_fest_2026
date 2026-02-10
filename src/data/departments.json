@@ -397,6 +397,18 @@
                 "/departments/Kunjali Marakkar School of Marine Engineering/11.jpg",
                 "/departments/Kunjali Marakkar School of Marine Engineering/12.jpg"
             ]
+        },
+        {
+            "name": "Department of Instrumentation",
+            "slug": "department-of-instrumentation",
+            "description": "Explore our academic department.",
+            "images": [
+                "/departments/Department of Instrumentation/g1.jpg",
+                "/departments/Department of Instrumentation/g2.jpg",
+                "/departments/Department of Instrumentation/g3.jpg",
+                "/departments/Department of Instrumentation/g4.jpg",
+                "/departments/Department of Instrumentation/g5.jpg"
+            ]
         }
     ]
 }
